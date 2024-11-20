@@ -3,3 +3,6 @@ scipy
 numpy
 pandas
 scikit-learn
+spacy
+setuptools 
+wheel
