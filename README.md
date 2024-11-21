@@ -7,6 +7,7 @@ A collection of AI examples and implementations.
 1. [Linear Regression](#linear-regression)
 2. [Polynomial Regression](#polynomial-regression)
 3. [POS Tagging](#pos-tagging)
+4. [Named Entity Detection](#named-entity-detection)
 
 ## `headless.py` VS `main.py`
 
@@ -31,4 +32,8 @@ This example takes in an x-array and a y-array and correlates them with a polyno
 
 ### POS Tagging
 
-This example classifies parts of speech into their categories, like
+This example classifies parts of speech into their categories, like nouns, verbs, and adjectives. This can be useful for other, more complex NLP tasks.
+
+### Named Entity Detection
+
+This example detects named entities like countries, people, organizations or money.
