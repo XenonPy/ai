@@ -9,9 +9,9 @@ A collection of AI examples and implementations.
 3. [POS Tagging](#pos-tagging)
 4. [Named Entity Detection](#named-entity-detection)
 
-## `headless.py` VS `main.py` VS `streamlit_app.py`
+## `headless.py` VS `main.py`
 
-The headless version is lighter weight, and doesn't require matplotlib to be installed. However, unlike the main version, it doesn't show an informative plot detailing a bit more about how the model works. The Streamlit app is a version designed to be rendered online via Streamlit. This is for internal use only, and it's not useful unless you want to render your own data. Note that not all examples have all files.
+The headless version is lighter weight, and doesn't require matplotlib to be installed. However, unlike the main version, it doesn't show an informative plot detailing a bit more about how the model works.
 
 ### Installation for datasets/libraries
 
