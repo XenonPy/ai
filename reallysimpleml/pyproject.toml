@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "reallysimpleml"
-version = "1.0.2"
+version = "1.0.0"
 description = "Simple machine learning one-liners."
 readme = "PACKAGE.md"
 authors = [{ name = "XenonPy", email = "xenonpy@bluspace.net" }]
