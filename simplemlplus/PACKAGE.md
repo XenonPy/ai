@@ -1,9 +1,16 @@
-# reallysimpleml
-> Version: 1.0.0
+# simplemlplus
+> Version: 1.0.1
 
 Simple machine learning one-liners.
 ## Headless Mode
-All functions create plots, useful for seeing how they work. To use a headless version (no plot), just import them from `reallysimpleml.headless` instead of `reallysimpleml`.
+All functions create plots, useful for seeing how they work. To use a headless version (no plot), just import them from `simplemlplus.headless` instead of `simplemlplus`.
+## Plot Only
+If you just want to see the visual representation, simply call the function without assigning it to a variable.
+```python
+import simplemlplus
+linear_regression(6, [5, 2, 7, 8], [4, 2, 4, 8])
+```
+
 ## Linear Regression
 ```python
 linear_regression(x: int, x_data: list, y_data: list)
@@ -18,14 +25,14 @@ Returns:
 Both `x_data` and `y_data` have default values if you want to play around with existing data.
 ### Example Use
 ```python
-import reallysimpleml
-linear_regression(10, [1, 2, 3, 4], [1, 2, 3, 4])
+import simplemlplus
+data = linear_regression(10, [1, 2, 3, 4], [1, 2, 3, 4])
 ```
 
 ## Polynomial Regression
 ```python
-import reallysimpleml
-polynomial_regression(x: int, x_data: list, y_data: list)
+import simplemlplus
+data = polynomial_regression(x: int, x_data: list, y_data: list)
 
 Returns:
 

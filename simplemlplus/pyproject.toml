@@ -5,8 +5,8 @@ requires      = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "reallysimpleml"
-version = "1.0.0"
+name = "simplemlplus"
+version = "1.0.1"
 description = "Simple machine learning one-liners."
 readme = "PACKAGE.md"
 authors = [{ name = "XenonPy", email = "xenonpy@bluspace.net" }]

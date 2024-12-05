@@ -1,4 +1,4 @@
 .devcontainer/
 .codesandbox/
-reallysimpleml.egg-info/
+simplemlplus.egg-info/
 dist/
